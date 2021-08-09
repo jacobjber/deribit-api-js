@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
-    "prepack": "npm run build /node_modules/deribit_api",
+    "prepack": "npm run-script build",
     "test": "mocha --compilers js:babel-core/register --recursive"
   },
   "browser": {
